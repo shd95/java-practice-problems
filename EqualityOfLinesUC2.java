@@ -18,11 +18,9 @@ double lengthLine2 = Math.pow((A2-A1),2) + Math.pow((B2-B1),2);
 System.out.println("First line length is: " + lengthLine1);
 System.out.println("Second line length is: " + lengthLine2);
 
-if (lengthLine1 <  lengthLine2)
-System.out.println("first line is longer");
-else if (lengthLine2 < lengthLine1)
-System.out.println("second line is longer");
-else
+if (lengthLine1 ==  lengthLine2)
 System.out.println("Both lines are equal");
+else
+System.out.println("Both lines are not equal");
 	}
 }
